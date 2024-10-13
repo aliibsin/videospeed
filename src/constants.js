@@ -43,8 +43,8 @@ export const settings = {
 		type: "keybindings",
 		default: [
 			{ action: "display", key: "v", value: 0, force: false, predefined: true },
-			{ action: "slower", key: "s", value: 0.25, force: false, predefined: true },
-			{ action: "faster", key: "d", value: 0.25, force: false, predefined: true },
+			{ action: "slower", key: "s", value: 0.1, force: false, predefined: true },
+			{ action: "faster", key: "d", value: 0.1, force: false, predefined: true },
 			{ action: "rewind", key: "z", value: 10, force: false, predefined: true },
 			{ action: "advance", key: "x", value: 10, force: false, predefined: true },
 			{ action: "reset", key: "r", value: 1, force: false, predefined: true },
